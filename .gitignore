@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Flask instance folder
+instance/
+.webassets-cache
+
+# PyCharm / VS Code
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and sqlite
+*.log
+*.sqlite3
+
+# pipenv
+Pipfile.lock
+
+# Byte-compiled / cache for pip
+pip-wheel-metadata/
+
+# OneDrive temp files
+~$*

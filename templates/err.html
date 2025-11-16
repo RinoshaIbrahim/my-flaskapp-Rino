@@ -1,0 +1,17 @@
+<html>
+  <head>
+      <title>
+         {{username}} not registered
+      </title>
+      <marquee behavior="scroll" direction="left" truespeed="true">
+        Invalid User {{ username }} !!!
+       </marquee>
+   </head>
+  <body bgcolor="Red">
+     
+    <h1>Error !!!  Sorry Try Again !!! Invalid User {{ username }}<br>
+       <p><input type="button" value="Try again" onclick="window.location.href='{{ url_for('show_login') }}'"></p>
+     
+    </h1>  
+  </body>
+</html>
